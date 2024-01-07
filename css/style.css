@@ -213,6 +213,28 @@
     font-weight: 400;
     line-height: 32px;
 }
-.coming-section .img-section{
-    
+
+.coming-section .img-section {
+    padding: 35px;
+    border-radius: 50%;
+    border: 15px solid #F00;
+    margin-right: 70px;
+}
+.coming-section .date-section *{
+    margin-bottom: 20px;
+}
+.coming-section .date-section h4 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.coming-section .date-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.coming-section .date-section img{
+    width: 140px;
+    height: 140px;
 }
