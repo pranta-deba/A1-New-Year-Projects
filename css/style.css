@@ -107,11 +107,16 @@
     background-position: center;
     background-size: cover;
     border-radius: 16px;
-    padding: 126px;
+    padding: 80px;
     margin-top: 130px;
+    display: flex;
 }
 
-.welcome-section h1 {
+.welcome-section .welcome-content{
+    padding: 50px;
+}
+
+.welcome-section .welcome-content h1 {
     max-width: 642px;
     color: #FFF;
     font-family: 'Merriweather', serif;
@@ -122,7 +127,7 @@
     margin-bottom: 24px;
 }
 
-.welcome-section p {
+.welcome-section .welcome-content p {
     max-width: 697px;
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
@@ -131,7 +136,7 @@
     margin-bottom: 40px;
 }
 
-.welcome-section button {
+.welcome-section .welcome-content button {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -142,6 +147,9 @@
     cursor: pointer;
     margin-left: 30px;
     margin-bottom: 5px;
+}
+.welcome-section .welcome-img{
+    max-width: 300px;
 }
 
 
