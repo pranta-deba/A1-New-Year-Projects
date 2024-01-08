@@ -347,8 +347,18 @@
     flex-wrap: wrap;
 }
 
-.portfolio-section .portfolio-img img {
+.portfolio-section .portfolio-img .images {
     width: 399px;
+    height: 399px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.portfolio-section .portfolio-img .images img{
+    width: 100%;
+    transition: all 0.2s;
+}
+.portfolio-section .portfolio-img .images img:hover{
+    transform: scale(1.3);
 }
 
 
