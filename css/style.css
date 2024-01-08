@@ -386,11 +386,13 @@
     line-height: 32px;
     margin-bottom: 35px;
 }
-.subscribe-section form{
+
+.subscribe-section form {
     max-width: 800px;
     margin: 10px auto;
     display: flex;
 }
+
 .subscribe-section form input {
     flex-grow: 1;
     background: #FFF;
@@ -416,4 +418,69 @@
 
 .subscribe-section form button:hover {
     background: rgb(181, 11, 11);
+}
+
+
+
+
+/* footer section */
+.footer-section {
+    background: #070211;
+    color: #FFF;
+    padding: 120px 140px;
+}
+
+.footer-section hr {
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    border: none;
+    margin: 48px 0;
+}
+
+.footer-section .footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section .footer-text .address p,
+.contacts p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.footer-section .footer-text .contacts p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section .footer-text .contacts p img {
+    margin-right: 10px;
+}
+
+.footer-section .footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer-section .footer-icons img {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+
+.footer-section .footer-copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section .footer-copyright p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
 }
