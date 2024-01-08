@@ -255,10 +255,11 @@
 
 
 /* holidays section */
-.holidays-section{
+.holidays-section {
     max-width: 1320px;
     margin-bottom: 120px;
 }
+
 .holidays-section .holiday-text {
     text-align: center;
 }
@@ -285,55 +286,134 @@
     line-height: 32px;
     margin-bottom: 60px;
 }
-.holiday-img-section{
+
+.holiday-img-section {
     background: url("../assets/Rectangle2.png");
     background-repeat: no-repeat;
     background-position: bottom;
     display: flex;
     align-items: end;
 }
-.holidays-section .holiday-img-section{
+
+.holidays-section .holiday-img-section {
     display: flex;
 }
-.holiday-img-section .two-side{
+
+.holiday-img-section .two-side {
     min-width: 429px;
     min-height: 433px;
     background: url('../assets/Rectangle1.png');
     position: relative;
-    transform: translate(5% , -53%);
+    transform: translate(5%, -53%);
 }
-.holiday-img-section .two-side img{
+
+.holiday-img-section .two-side img {
     position: relative;
-    transform: translate(-50% , 20%);
+    transform: translate(-50%, 20%);
 }
 
 
 /* portfolio section */
-.portfolio-section .portfolio-text h5{
+.portfolio-section {
+    margin-bottom: 100px;
+}
+
+.portfolio-section .portfolio-text h5 {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
 }
-.portfolio-section .portfolio-text h3{
+
+.portfolio-section .portfolio-text h3 {
     font-family: 'Merriweather', serif;
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
     margin-bottom: 22px;
 }
-.portfolio-section .portfolio-text p{
+
+.portfolio-section .portfolio-text p {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
-    line-height: 32px; 
+    line-height: 32px;
     margin-bottom: 60px;
 }
-.portfolio-section .portfolio-img{
+
+.portfolio-section .portfolio-img {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
 }
-.portfolio-section .portfolio-img img{
+
+.portfolio-section .portfolio-img img {
     width: 399px;
+}
+
+
+/* subscribe section */
+.subscribe-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 200px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.subscribe-section .subscribe-text img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 40px;
+}
+
+.subscribe-section .subscribe-text h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.subscribe-section .subscribe-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 35px;
+}
+.subscribe-section form{
+    max-width: 800px;
+    margin: 10px auto;
+    display: flex;
+}
+.subscribe-section form input {
+    flex-grow: 1;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 50px;
+}
+
+.subscribe-section form button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 20px 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.subscribe-section form button:hover {
+    background: rgb(181, 11, 11);
 }
