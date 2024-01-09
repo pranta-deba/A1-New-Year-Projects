@@ -4,6 +4,7 @@
 
 
 /* target all element */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,11 @@
 }
 
 
+
+
+
 /* crazy class */
+
 .container {
     width: 82%;
     max-width: 1440px;
@@ -28,7 +33,10 @@
 
 
 
-/* header*/
+
+
+/* header */
+
 .header-section {
     max-height: 600px;
     padding: 200px 0px;
@@ -71,7 +79,11 @@
     line-height: 95px;
 }
 
+
+
+
 /* category section */
+
 .category-section {
     margin-top: 100px;
 }
@@ -100,7 +112,10 @@
 }
 
 
+
+
 /* welcome section */
+
 .welcome-section {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../assets/Vectorrr.png');
     background-repeat: no-repeat;
@@ -188,6 +203,8 @@
 }
 
 
+
+
 /* coming section */
 
 .coming-section {
@@ -255,6 +272,7 @@
 
 
 /* holidays section */
+
 .holidays-section {
     max-width: 1320px;
     margin-bottom: 120px;
@@ -313,7 +331,10 @@
 }
 
 
+
+
 /* portfolio section */
+
 .portfolio-section {
     margin-bottom: 100px;
 }
@@ -362,7 +383,10 @@
 }
 
 
+
+
 /* subscribe section */
+
 .subscribe-section {
     display: flex;
     flex-direction: column;
@@ -433,7 +457,9 @@
 
 
 
+
 /* footer section */
+
 .footer-section {
     background: #070211;
     color: #FFF;
